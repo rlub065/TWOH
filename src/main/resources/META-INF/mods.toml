@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="twoh"
+version="1.0.0"
+displayName="The World Over Heaven"
+description='''
+The World Over Heaven - Reality Overwrite Stand.
+Summon with a key, rewrite reality, stop time, change mobs, buff yourself without limits.
+'''
+
+[[dependencies.twoh]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.twoh]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
